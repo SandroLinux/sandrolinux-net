@@ -1,0 +1,61 @@
+body{
+  background-color:black;
+  font-family:Verdana, Geneva, sans-serif;
+  font-size:14px;
+  font-weight:normal;
+  color:#fff;
+}
+a{
+  text-decoration: none;
+  color:#FF4500;
+}
+
+a:hover{
+  color:#FF1493;
+}
+
+a:visited{
+  color:#FF4500;
+}
+#WelcomeText{
+  color:#fff;
+}
+
+.TopBar{
+  background-color:black;
+  color:#ffffff;
+}
+
+.container{
+  width:100%;
+  margin:auto;
+  overflow:hidden;
+  padding-left:0px;
+}
+
+#navbar{
+  background-color:black;
+  color:#fff;
+}
+
+#navbar ul{
+  padding:0;
+  list-style: none;
+}
+
+#navbar li{
+  display:inline;
+  padding-right:30px;
+}
+
+.box-1{
+   background-color:#FFFAF0;
+   color:black;
+   border: 10px red solid;
+   padding:20px;
+}
+
+.Endpoint{
+  padding-left:2%;
+}
+

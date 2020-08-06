@@ -1,0 +1,77 @@
+body{
+  background-color:black;
+  font-family:Verdana, Geneva, sans-serif;
+  font-size:14px;
+  font-weight:normal;
+  line-height:1.7em;
+}
+.box-1{
+   background-color:#FFFAF0;
+   color:black;
+   border: 10px red solid;
+   padding:20px;
+}
+.youtuberlist{ 
+padding:10px;
+border-color:black;
+
+}
+.youtuberlist UL{
+
+}
+
+.MyFavouriteLinuxDistro{
+  padding-left:0px;
+  border-left:0px;
+  margin-left:0px;
+  
+}
+
+a{
+  text-decoration: none;
+  color:#FF4500;
+}
+
+a:hover{
+  color:#FF1493;
+}
+
+a:visited{
+  color:#FF4500;
+}
+
+.Endpoint{
+  padding-left:2%;
+}
+
+.TopBar{
+  background-color:black;
+  color:#ffffff;
+}
+
+.container{
+  width:100%;
+  margin:auto;
+  overflow:hidden;
+  padding-left:0px;
+}
+
+#main-footer{
+  background-color:black;
+  color:#ffffff;
+}
+
+#navbar{
+  background-color:black;
+  color:#fff;
+}
+
+#navbar ul{
+  padding:0;
+  list-style: none;
+}
+#navbar li{
+  display:inline;
+  padding-right:30px;
+}
+
