@@ -5,7 +5,7 @@ Disallow: /AboutThisWebsite.html
 Allow: /Mainpage.html
 Disallow: /MyPlaylist.html
 Allow: /NewsAboutMe.html
-Disallow: /SandroLinux.css
-Disallow: /homepage.css
+Allow: /SandroLinux.css
+Allow: /homepage.css
 
 Sitemap: https://www.sandrolinux.com/sitemap.xml
