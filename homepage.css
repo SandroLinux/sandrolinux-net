@@ -1,10 +1,20 @@
 body{
   background-color:black;
   font-family:Verdana, Geneva, sans-serif;
-  font-size:14px;
+  font-size:100%;
   font-weight:normal;
   color:#fff;
 }
+
+@media (max-width: 800px) {
+  body {
+  font-size:200%;
+  }
+  LI{
+    padding-bottom:55%;
+  }
+}
+
 a{
   text-decoration: none;
   color:#FF4500;
