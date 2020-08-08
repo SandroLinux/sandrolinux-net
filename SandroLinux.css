@@ -9,11 +9,13 @@ body{
  
 @media (max-width: 800px) {
   body {
-  font-size:200%;
+  font-size:150%;
   }
   LI{
     padding-bottom:55px;
   }
+  
+  
 }
 
 .box-1{
@@ -21,6 +23,7 @@ body{
    color:black;
    border: 10px red solid;
    padding:20px;
+    
 }
 .youtuberlist{ 
 padding:10px;
