@@ -1,6 +1,8 @@
 User-agent: *
 Allow: /index.html
 Disallow: /sandrolinuxicon.jpg
+Disallow: /sandrolinux.png
+Disallow: /favicon.png
 Allow: /aboutthiswebsite.html
 Allow: /mainpage.html
 Allow: /myplaylist.html
