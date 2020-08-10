@@ -1,4 +1,5 @@
 
+
 function greeting()
 
 {
@@ -9,33 +10,32 @@ function greeting()
 
   
 
-   document.write("<P><U></P>");
+   document.write("<H2><U>");
 
    if (hrs < 6)
 
-      document.write("Good Night</U>");
+      document.write("Good Night");
       
    else if (hrs < 12)
 
-      document.write("Good Morning</U>");
+      document.write("Good Morning");
       
    else if (hrs < 17)
 
-      document.write("Good Afternoon</U>");
+      document.write("Good Afternoon");
       
    else if (hrs <= 19)
 
-      document.write("Good Evening</U>");
+      document.write("Good Evening");
 
    else if (hrs < 23)
 
-      document.write("Good Night</U>");
+      document.write("Good Night");
 
-   document.writeln("</B></P>");
+   document.writeln("</U></H2>");
 
   
 
 }
 
-
-
+greeting();
