@@ -10,6 +10,8 @@ Allow: /newsaboutme.html
 Allow: /sandrolinux.css
 Allow: /homepage.css
 Allow: /sandrolinux.js
+Allow: /cookiebanner.js
 Allow: /contactme.html
+Allow: /privacypolicy.html
 
 Sitemap: https://www.sandrolinux.com/sitemap.xml
