@@ -2,13 +2,15 @@
 <rss version="2.0">
 
 <channel>
-  
+  <title>Sandro Linux</title>
+  <description>The Latest News from Oscar Sanderson aka Sandro Linux</description>
+  <link>https://www.sandrolinux.com/</link>
   <item>
-  <title>News about me Sandro Linux</title>
-  <link>https://www.sandrolinux.com/newsaboutme</link>
-  <description>News about me and my channel Sandro Linux</description>
+  <title>Huawei maybe working to build its own semiconductor manufacturing line
+  </title>
+  <description>Huawei maybe working to build its own semiconductor manufacturing line. This is important since Huawei relys on tsmc to make their Kirin processors but tsmc has said they are going to stop making Kirin chips.</description>
+  <link>https://www.sandrolinux.com/huaweiworkingtobuilditsownsemiconductorline.html
+  </link>
   </item>
- 
 </channel>
-
 </rss>
