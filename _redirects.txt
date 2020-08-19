@@ -1,1 +1,1 @@
-/blog /newsaboutme
+/blog https://www.sandrolinux.com/newsaboutme
