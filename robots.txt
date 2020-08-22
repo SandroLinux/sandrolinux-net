@@ -17,6 +17,11 @@ Allow: /cookiebanner.js
 Allow: /contactme.html
 Allow: /privacypolicy.html
 Allow: /search.html
+
 User-agent: Googlebot-News
-Allow: /news/*
+Allow: /news/
+
+User-agent: Baiduspider-news
+Allow: /news/
+
 Sitemap: https://www.sandrolinux.com/sitemaps/sitemap.xml
