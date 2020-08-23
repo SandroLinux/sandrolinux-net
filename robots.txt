@@ -14,8 +14,27 @@ Disallow: /Gaming-2.png
 Disallow: /favicon.png
 Disallow: /favicon.ico
 
+User-agent: Slurpbot
+Allow: /news/
+Allow: /sandrolinuxicon.jpg
+Allow: /sandrolinux.png
+Allow: /Gaming-2.png
+Allow: /favicon.png
+Allow: /favicon.ico
+Allow: /aboutthiswebsite.html
+Allow: /mainpage.html
+Allow: /myplaylist.html
+Allow: /newsaboutme.html
+Allow: /sandrolinux.css
+Allow: /homepage.css
+Allow: /sandrolinux.js
+Allow: /cookiebanner.js
+Allow: /contactme.html
+Allow: /privacypolicy.html
+Allow: /search.html
+
 User-agent: *
-Allow: /news/*
+Allow: /news/
 Allow: /index.html
 Disallow: /sandrolinuxicon.jpg
 Disallow: /sandrolinux.png
