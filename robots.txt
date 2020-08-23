@@ -1,8 +1,18 @@
 User-agent: Googlebot-News
 Allow: /news/
+Disallow: /
 
 User-agent: Baiduspider-news
 Allow: /news/
+Disallow: /
+
+User-agent: ia_archiver
+Allow: /
+Disallow: /sandrolinuxicon.jpg
+Disallow: /sandrolinux.png
+Disallow: /Gaming-2.png
+Disallow: /favicon.png
+Disallow: /favicon.ico
 
 User-agent: *
 Allow: /news/*
