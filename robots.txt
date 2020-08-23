@@ -26,4 +26,5 @@ Allow: /news/
 
 User-agent: Bingbot
 Allow: /favicon.png
+
 Sitemap: https://www.sandrolinux.com/sitemaps/sitemap.xml
