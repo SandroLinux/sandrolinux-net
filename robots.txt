@@ -1,3 +1,12 @@
+User-agent: Googlebot-News
+Allow: /news/
+
+User-agent: Baiduspider-news
+Allow: /news/
+
+User-agent: YandexBot
+Allow: /favicon.png
+
 User-agent: *
 Allow: /news/*
 Allow: /index.html
@@ -17,14 +26,5 @@ Allow: /cookiebanner.js
 Allow: /contactme.html
 Allow: /privacypolicy.html
 Allow: /search.html
-
-User-agent: Googlebot-News
-Allow: /news/
-
-User-agent: Baiduspider-news
-Allow: /news/
-
-User-agent: YandexBot
-Allow: /favicon.png
 
 Sitemap: https://www.sandrolinux.com/sitemaps/sitemap.xml
