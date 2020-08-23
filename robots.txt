@@ -4,9 +4,6 @@ Allow: /news/
 User-agent: Baiduspider-news
 Allow: /news/
 
-User-agent: YandexBot
-Allow: /favicon.png
-
 User-agent: *
 Allow: /news/*
 Allow: /index.html
