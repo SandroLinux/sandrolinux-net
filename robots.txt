@@ -1,3 +1,4 @@
+#News Crawlers
 User-agent: Googlebot-News
 Allow: /news/
 Disallow: /
@@ -6,6 +7,11 @@ User-agent: Baiduspider-news
 Allow: /news/
 Disallow: /
 
+User-agent: Sogou News Spider
+Allow: /news/
+Disallow: /
+
+#Alexa Internet Rankings Crawler
 User-agent: ia_archiver
 Allow: /
 Disallow: /sandrolinuxicon.jpg
@@ -13,6 +19,10 @@ Disallow: /sandrolinux.png
 Disallow: /Gaming-2.png
 Disallow: /favicon.png
 Disallow: /favicon.ico
+
+#General Search Crawlers   
+User-agent: YoudaoBot
+Disallow: /
 
 User-agent: Slurpbot
 Allow: /news/
@@ -33,13 +43,6 @@ Allow: /contactme.html
 Allow: /privacypolicy.html
 Allow: /search.html
 
-User-agent: Sogou News Spider
-Allow: /news/
-Disallow: /
-
-User-agent: YoudaoBot
-Disallow: /
-
 #Bad Bots
 User-agent: Microsoft.URL.Control
 Disallow: /
@@ -57,6 +60,18 @@ User-agent: TeleportPro
 Disallow: /
 
 User-agent: sitecheck.internetseer.com
+Disallow: /
+
+User-agent: Offline Explorer
+Disallow: /
+
+User-agent: WebZIP
+Disallow: /
+
+User-agent: linko
+Disallow: /
+
+User-agent: HTTrack
 Disallow: /
 
 #Rules for other crawlers
