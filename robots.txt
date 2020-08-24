@@ -33,6 +33,33 @@ Allow: /contactme.html
 Allow: /privacypolicy.html
 Allow: /search.html
 
+User-agent: Sogou News Spider
+Allow: /news/
+Disallow: /
+
+User-agent: YoudaoBot
+Disallow: /
+
+#Bad Bots
+User-agent: Microsoft.URL.Control
+Disallow: /
+
+User-agent: ZyBORG
+Disallow: /
+
+User-agent: Download Ninja
+Disallow: /
+
+User-agent: Teleport
+Disallow: /
+
+User-agent: TeleportPro
+Disallow: /
+
+User-agent: sitecheck.internetseer.com
+Disallow: /
+
+#Rules for other crawlers
 User-agent: *
 Allow: /news/
 Allow: /index.html
