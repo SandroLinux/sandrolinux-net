@@ -30,22 +30,23 @@ Disallow: /
 
 User-agent: Slurpbot
 Allow: /news/
+Allow: /index.html
 Allow: /sandrolinuxicon.jpg
 Allow: /sandrolinux.png
 Allow: /Gaming-2.png
 Allow: /favicon.png
 Allow: /favicon.ico
-Allow: /aboutthiswebsite.html
-Allow: /mainpage.html
-Allow: /myplaylist.html
-Allow: /newsaboutme.html
+Disallow: /aboutthiswebsite.html
+Disallow: /mainpage.html
+Disallow: /myplaylist.html
+Disallow: /newsaboutme.html
 Allow: /sandrolinux.css
 Allow: /homepage.css
 Allow: /sandrolinux.js
 Allow: /cookiebanner.js
 Allow: /contactme.html
-Allow: /privacypolicy.html
-Allow: /search.html
+Disallow: /privacypolicy.html
+Disallow: /search.html
 
 User-agent: Facebot
 Allow: /news/
@@ -97,16 +98,16 @@ Allow: /sandrolinux.png
 Allow: /Gaming-2.png
 Allow: /favicon.png
 Allow: /favicon.ico
-Allow: /aboutthiswebsite.html
-Allow: /mainpage.html
-Allow: /myplaylist.html
-Allow: /newsaboutme.html
+Disallow: /aboutthiswebsite.html
+Disallow: /mainpage.html
+Disallow: /myplaylist.html
+Disallow: /newsaboutme.html
 Allow: /sandrolinux.css
 Allow: /homepage.css
 Allow: /sandrolinux.js
 Allow: /cookiebanner.js
 Allow: /contactme.html
-Allow: /privacypolicy.html
+Disallow: /privacypolicy.html
 Disallow: /search.html
 
 Sitemap: https://www.sandrolinux.com/sitemaps/sitemap.xml
