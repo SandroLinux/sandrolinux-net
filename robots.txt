@@ -11,6 +11,10 @@ User-agent: Sogou News Spider
 Allow: /news/
 Disallow: /
 
+User-agent: Qwant-news
+Allow: /news/
+Disallow: /
+
 #Alexa Internet Rankings Crawler
 User-agent: ia_archiver
 Allow: /
@@ -42,6 +46,16 @@ Allow: /cookiebanner.js
 Allow: /contactme.html
 Allow: /privacypolicy.html
 Allow: /search.html
+
+User-agent: Facebot
+Allow: /news/
+Disllow: /sandrolinux.js
+Disllow: /cookiebanner.js
+Disallow: /sandrolinuxicon.jpg
+Disallow: /sandrolinux.png
+Disallow: /Gaming-2.png
+Disallow: /favicon.png
+Disallow: /favicon.ico
 
 #Bad Bots
 User-agent: Microsoft.URL.Control
@@ -93,6 +107,6 @@ Allow: /sandrolinux.js
 Allow: /cookiebanner.js
 Allow: /contactme.html
 Allow: /privacypolicy.html
-Allow: /search.html
+Disallow: /search.html
 
 Sitemap: https://www.sandrolinux.com/sitemaps/sitemap.xml
