@@ -5,9 +5,16 @@
   "background_color": "#ffffff",
   "theme_color": "#000000",
   "display": "standalone",
-  "icons": {
+  "icons": [
+    {
     "src": "https://www.sandrolinux.com/PWA%20Icon%20180.jpg",
     "sizes": "180x180",
     "type": "image/png"
+  },
+  {
+    "src": "https://www.sandrolinux.com/pwaicon512.jpg",
+    "sizes": "512x512",
+    "type": "image/png"
   }
+  ]
 }
