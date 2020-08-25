@@ -1,6 +1,6 @@
 {
   "name": "Sandro Linux The App",
-  "short-name": "Sandro Linux",
+  "short_name": "Sandro Linux",
   "start_url": "https://www.sandrolinux.com/",
   "background_color": "#ffffff",
   "theme_color": "#000000",
