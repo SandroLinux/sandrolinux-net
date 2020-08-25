@@ -6,8 +6,8 @@
   "theme_color": "#000000",
   "display": "standalone",
   "icons": {
-    "src": "https://www.sandrolinux.com/sandrolinux.png",
-    "sizes": "800x800",
+    "src": "https://www.sandrolinux.com/PWA%20Icon%20180.jpg",
+    "sizes": "180x180",
     "type": "image/png"
   }
 }
