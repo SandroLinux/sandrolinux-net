@@ -3,5 +3,11 @@
   "short-name": "Sandro Linux",
   "start_url": "https://www.sandrolinux.com/",
   "background_color": "#ffffff",
-  "theme_color": "#000000"
+  "theme_color": "#000000",
+  "display": "standalone",
+  "icons": {
+    "src": "https://www.sandrolinux.com/sandrolinux.png",
+    "sizes": "800x800",
+    "type": "image/png"
+  }
 }
