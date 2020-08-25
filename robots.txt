@@ -50,8 +50,8 @@ Disallow: /search.html
 
 User-agent: Facebot
 Allow: /news/
-Disllow: /sandrolinux.js
-Disllow: /cookiebanner.js
+Disallow: /sandrolinux.js
+Disallow: /cookiebanner.js
 Disallow: /sandrolinuxicon.jpg
 Disallow: /sandrolinux.png
 Disallow: /Gaming-2.png
