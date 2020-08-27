@@ -1,21 +1,53 @@
 {
   "name": "Sandro Linux The App",
   "short_name": "Sandro Linux",
-  "start_url": "https://www.sandrolinux.com/",
+  "start_url": "https://pwa.sandrolinux.com/",
   "background_color": "#ffffff",
   "theme_color": "#000000",
   "display": "standalone",
+    
   "icons": [
     {
-    "src": "https://www.sandrolinux.com/maskable_icon.png",
+    "src": "https://pwa.sandrolinux.com/maskable_icon.png",
     "sizes": "180x180",
     "type": "image/png",
     "purpose": "any maskable"
   },
   {
-    "src": "https://www.sandrolinux.com/pwaicon512.jpg",
+    "src": "https://pwa.sandrolinux.com/pwaicon512.jpg",
     "sizes": "512x512",
     "type": "image/png"
   }
   ]
+  ,"shortcuts": [
+    {
+      "name": "Tech News",
+      "short_name": "News",
+      "description": "Read The Latest Tech News",
+      "url": "/newsaboutme.html",
+      "icons": [{ "src": "/icons/news/maskable_icon.png", "sizes": "180x180", "purpose": "any maskable" }]
+    },
+    {
+      "name": "Search",
+      "short_name": "Search",
+      "description": "Search My Site",
+      "url": "/search.html",
+      "icons": [{ "src": "/icons/search/maskable_icon.png", "sizes": "180x180", "purpose": "any maskable"}]
+    },
+    {
+      "name": "About Me",
+      "short_name": "About Me",
+      "description": "About Me and more",
+      "url": "/mainpage.html",
+      "icons": [{ "src": "/icons/aboutme/maskable_icon.png", "sizes": "180x180", "purpose": "any maskable"}]
+    },
+    {
+      "name": "My Playlists",
+      "short_name": "My Playlists",
+      "description": "All My Playlists",
+      "url": "/myplaylist.html",
+      "icons": [{ "src": "/icons/myplaylists/maskable_icon.png", "sizes": "180x180", "purpose": "any maskable"}]
+    }
+  ]
 }
+
