@@ -1,7 +1,4 @@
 #News Crawlers
-User-agent: Googlebot-News
-Allow: /news/
-Disallow: /
 
 User-agent: Baiduspider-news
 Allow: /news/
@@ -58,6 +55,26 @@ Disallow: /Gaming-2.png
 Disallow: /favicon.png
 Disallow: /favicon.ico
 
+#Apple's web crawler
+User-agent: Applebot
+Allow: /news/
+Allow: /index.html
+Allow: /sandrolinuxicon.jpg
+Allow: /sandrolinux.png
+Allow: /Gaming-2.png
+Allow: /favicon.png
+Allow: /favicon.ico
+Disallow: /aboutthiswebsite.html
+Disallow: /mainpage.html
+Disallow: /myplaylist.html
+Disallow: /newsaboutme.html
+Allow: /sandrolinux.css
+Allow: /homepage.css
+Allow: /sandrolinux.js
+Allow: /cookiebanner.js
+Allow: /contactme.html
+Disallow: /privacypolicy.html
+Disallow: /search.html
 #Bad Bots
 User-agent: Microsoft.URL.Control
 Disallow: /
