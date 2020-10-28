@@ -143,6 +143,7 @@ a:visited{
 #navbar{
   background-color:black;
   color:#fff;
+  height: 100%;font-family:'Ubuntu', Verdana, sans-serif;
 }
 
 #navbar ul{
@@ -158,12 +159,17 @@ a:visited{
    width: 50%;
    position: absolute;
    left: 0px;
-   height: 100%;
 }
 #rightHalf {
-
    width: 50%;
    position: absolute;
    right: 0px;
    height: 100%;
+}
+.premuium {
+  color:#6600ff;
+  display:inline;
+}
+.index_fonts {
+  font-family:'Ubuntu', Verdana, sans-serif;
 }
