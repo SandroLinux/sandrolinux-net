@@ -46,11 +46,16 @@
     window.alert ("You clicking on this shows that you are susceptible and are probably being tracked across the internet");
     window.alert ("That is the reason why you need to join the fight for the open web");
     window.alert ("You can start today by using Firefox, Tor or Brave as your web browser and setting your search engine to DuckDuckGo");
+    window.alert ("To learn more about how to mitigate spying I suggest The Hated One's videos");
     console.log("User informed!");
+    window.alert ("Also, as always have a nice day!");
     window.open("https://www.eff.org/issues/privacy")
     window.open("https://www.torproject.org")
     console.log("New browser tabs opened!");
     console.log("Script finished!");
+  }
+  function whyuclickdis(){
+    document.getElementById("sandrosite").innerHTML = "Easter egg"; 
   }
 </script>
   <div class="cookie-container">
@@ -65,7 +70,7 @@
   <header class="TopBar">
 <div class="container">
 <div class="start_fonts">
-<H1>Sandro Linux's Site</H1>
+<H1 onclick="whyuclickdis()" id="sandrosite">Sandro Linux's Site</H1>
 </div>
  <nav id="navbar">
   <div class="container">
