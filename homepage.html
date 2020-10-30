@@ -35,6 +35,10 @@
       </button>
     </div>
     <script>
+      function url(){
+        var x = document.getElementById("url_box").value;
+        window.open(x)
+      }
     </script>
 <header class="TopBar">
 <div class="container">
@@ -57,7 +61,7 @@
 <u><H2>Homepage</H2></u>
 <H3><U>Search the internet</U></H3>
 <form>
-  <input type="url" class="url_box" placeholder="Write a url here">
+  <input type="url" class="url_box" id="url_box" placeholder="Write a url here"><button onclick="url()">enter</button>
 </form>
 </div>
 <div class="Endpoint">
