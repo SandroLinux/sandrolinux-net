@@ -182,3 +182,6 @@ a:visited{
   border-radius: 8px;
   cursor: pointer;
 }
+.url_box {
+  border-radius: 30px;
+}
