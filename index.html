@@ -11,6 +11,7 @@
   <meta name="yandex-verification" content="7b071f980003b2bc" />
   <meta name="msvalidate.01" content="3649A606B35320B079D9EFB34001AAC3" />
   <meta name="theme-color" content="#000000">
+  <meta charset="UTF-8">
   <link rel="apple-touch-icon" href="https://www.sandrolinux.com/PWA%20Icon%20180.jpg">
   <link rel="manifest" href="manifest.json">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Raleway:wght@300;700;900&family=Trispace:wght@500&family=Ubuntu&display=swap" rel="stylesheet">
@@ -38,11 +39,14 @@
 <!-- /Yandex.Metrika counter -->
 <script>
   function madjavascript() {
+    var x = navigator.userAgent;
     console.log("Truth active!");
     window.alert ("This javascript may change your life forever or at least change the way you perceive the web");
     window.alert ("Mark Zuckerburg is tracking you across the web");
     window.alert ("Google do not care about your privacy");
+    window.alert ("Your user agent is " + x + " and that gives websites a unique characteristic about you that can be used to track you across the web")
     window.alert ("It is alarming how much data companies collect on you");
+    window.alert ("The US goverment tracks you. This is not conspiracy but fact. Look at the Snowden leaks");
     window.alert ("You clicking on this shows that you are susceptible and are probably being tracked across the internet");
     window.alert ("That is the reason why you need to join the fight for the open web");
     window.alert ("You can start today by using Firefox, Tor or Brave as your web browser and setting your search engine to DuckDuckGo");
@@ -50,7 +54,7 @@
     console.log("User informed!");
     window.alert ("Also, as always have a nice day!");
     window.open("https://www.eff.org/issues/privacy")
-    window.open("https://www.torproject.org")
+    window.open("https://www.torproject.org", width="200")
     console.log("New browser tabs opened!");
     console.log("Script finished!");
   }
@@ -72,6 +76,7 @@
 <div class="start_fonts">
 <H1 onclick="whyuclickdis()" id="sandrosite">Sandro Linux's Site</H1>
 </div>
+<p type="text" id="UserAgent"></p>
  <nav id="navbar">
   <div class="container">
     <ul>
@@ -100,7 +105,6 @@
   </a>
   <H2><U>Which part of my website do you want to navigate to?</U></H2>
   <UL>
-   
     <LI><a href="mainpage.html">About me</a></LI>
     <LI><a href="newsaboutme.html">Tech News and News About Me</a></LI>
     <LI><a href="aboutthiswebsite.html">About this website</a></LI>
