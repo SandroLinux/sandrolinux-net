@@ -14,7 +14,8 @@ Disallow: /
 
 #Alexa Internet Rankings Crawler
 User-agent: ia_archiver
-Allow: /
+Allow: /index.html
+Disallow: /mainpage.html
 Disallow: /sandrolinuxicon.jpg
 Disallow: /sandrolinux.png
 Disallow: /Gaming-2.png
@@ -24,6 +25,28 @@ Disallow: /favicon.ico
 #General Search Crawlers   
 User-agent: YoudaoBot
 Disallow: /
+
+User-agent: MojeekBot
+Allow: /
+Allow: /news/
+Allow: /index.html
+Allow: /sandrolinuxicon.jpg
+Allow: /sandrolinux.png
+Allow: /Gaming-2.png
+Allow: /favicon.png
+Allow: /favicon.ico
+Disallow: /aboutthiswebsite.html
+Disallow: /mainpage.html
+Disallow: /myplaylist.html
+Disallow: /newsaboutme.html
+Allow: /sandrolinux.css
+Allow: /homepage.css
+Allow: /sandrolinux.js
+Allow: /cookiebanner.js
+Allow: /contactme.html
+Disallow: /privacypolicy.html
+Disallow: /search.html
+
 
 User-agent: Slurpbot
 Allow: /news/
