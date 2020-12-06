@@ -103,7 +103,6 @@ body{
    color:black;
    border: 10px red solid;
    padding:20px;
-    
 }
 .youtuberlist{ 
 padding:10px;
@@ -136,6 +135,8 @@ a:visited{
   margin:auto;
   overflow:hidden;
   padding-left:0%;
+  animation-name: box;
+   animation-duration: 2s;
 }
 
 #main-footer{
@@ -198,4 +199,19 @@ a:visited{
 }
 .no-more-metrica {
   background-color:#ffaa00;
+  color:#000000;
+  text-align: center;
+  border: 1px yellow solid;
+  padding:10x;
+  animation-name: no_metrica;
+  animation-duration: 2s;
+  animation-iteration-count: 3;
+}
+@keyframes no_metrica {
+  from {border: 20px yellow solid;}
+  to {border: 1px yellow solid;}
+}
+@keyframes box {
+  from {color: rgb(255, 81, 0);}
+  to {color: white;}
 }
