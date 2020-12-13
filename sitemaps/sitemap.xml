@@ -2,44 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
   <url>
     <loc>https://www.sandrolinux.com/</loc>
-    <lastmod>2020-08-22</lastmod>
+    <lastmod>2020-12-13</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
       <loc>https://www.sandrolinux.com/mainpage</loc>
-      <lastmod>2020-08-22</lastmod>
+      <lastmod>2020-12-13</lastmod>
       <changefreq>daily</changefreq>
   </url>
   <url>
       <loc>https://www.sandrolinux.com/newsaboutme</loc>
-      <lastmod>2020-08-22</lastmod>
+      <lastmod>2020-12-13</lastmod>
       <changefreq>daily</changefreq>
   </url>
   <url>
       <loc>https://www.sandrolinux.com/myplaylist</loc>
-      <lastmod>2020-08-22</lastmod>
+      <lastmod>2020-12-13</lastmod>
       <changefreq>weekly</changefreq>
   </url>
   <url>
       <loc>https://www.sandrolinux.com/contactme</loc>
-      <lastmod>2020-08-22</lastmod>
+      <lastmod>2020-12-13</lastmod>
       <changefreq>daily</changefreq>
   </url>
   <url>
       <loc>https://www.sandrolinux.com/aboutthiswebsite</loc>
-      <lastmod>2020-08-22</lastmod>
+      <lastmod>2020-12-13</lastmod>
       <changefreq>daily</changefreq>
   </url>
   
   <url>
       <loc>https://www.sandrolinux.com/privacypolicy.html</loc>
-      <lastmod>2020-08-22</lastmod>
+      <lastmod>2020-12-13</lastmod>
       <changefreq>monthly</changefreq>
   </url>
   
   <url>
       <loc>https://www.sandrolinux.com/search.html</loc>
-      <lastmod>2020-08-22</lastmod>
+      <lastmod>2020-12-13</lastmod>
       <changefreq>daily</changefreq>
   </url>
 </urlset>
