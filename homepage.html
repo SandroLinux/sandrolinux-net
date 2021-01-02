@@ -39,10 +39,12 @@
 <H3><U>Enter a url</U></H3>
 <form>
   <input type="url" class="url_box" id="url_box" placeholder="Write a url here"><button onclick="url()" class="url_box">enter</button>
-  <input type="checkbox">
 </form>
 <H3><U>Search on duckduckgo</U></H3>
-<iframe src="https://duckduckgo.com/search.html?prefill=Search DuckDuckGo" style="overflow:hidden;margin:0;padding:0;width:408px;height:40px;" frameborder="0"></iframe>
+<form method="get" action="https://www.duckduckgo.com/">
+	<input id="duckduckgosearch" size="30" name="q" placeholder="Search with DuckDuckGo">  
+	<input type="submit" value="Search"> 
+</form>
 <h3><u>My latest Sandro's Week Roundup</u></h3>
 <div class="iframe-container">
 <iframe class="responsive-iframe" src="https://lbry.tv/$/embed/Samsung-is-now-worlds-biggest-phone-maker-and-Xiaomi-becomes-3rd/448ced6d77016ff295daee5fb501affb05a30992?" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
