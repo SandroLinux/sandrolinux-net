@@ -1,7 +1,7 @@
 body{
   background-color:black;
   font-family:Verdana, Geneva, sans-serif;
-  font-size:16px;
+  font-size:1.5vw;
   font-weight:normal;
   line-height:1.7em;
   color:#ffffff;
@@ -51,6 +51,20 @@ body{
   width: 100%;
   padding-top: 56.25%; 
 }
+.responsive-addon-image {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 40%;
+  height: 40%;
+}
+.addon-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 0.1%; 
+}
 .cookie-container {
   position: fixed;
   bottom: -100%;
@@ -82,7 +96,7 @@ body{
   border: 0;
   color: #f5f6fa;
   padding: 12px 48px;
-  font-size: 18px;
+  font-size: 1vw;
   margin-bottom: 16px;
   border-radius: 8px;
   cursor: pointer;
@@ -112,22 +126,10 @@ body{
   border: 0;
   color: #f5f6fa;
   padding: 12px 48px;
-  font-size: 18px;
+  font-size: 1vw;
   margin-bottom: 16px;
   border-radius: 8px;
   cursor: pointer;
-}
-@media (max-width: 800px) {
-  body {
-  font-size:150%;
-  }
-  LI{
-    padding-bottom:55px;
-  }
-  
-  a{
-    padding-bottom:55%;
-  }
 }
 
 .box-1{
@@ -201,7 +203,7 @@ a:visited{
   background: #e84118;
   color: #000000;
   padding: 4px 4px;
-  margin-bottom: 2px;
+  margin-bottom: 2vw;
   border-radius: 8px;
   cursor: pointer;
 }
