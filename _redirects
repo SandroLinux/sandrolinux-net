@@ -5,3 +5,5 @@
 /sandro'squicknews /newsaboutme
 /sandrosquicknews /newsaboutme
 /rss.xml /news/rss.xml
+/*
+  Permissions-Policy: interest-cohort=()
