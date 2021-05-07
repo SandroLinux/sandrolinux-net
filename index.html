@@ -16,109 +16,35 @@
   <link rel="manifest" href="manifest.json">
   <Title>The Home Page of Sandro's Official Site</Title>
   </head>
-<body>
-  <script>
-    function darkmodeswitch() {
-      var element = document.body;
-      element.classList.toggle("dark-mode");
-   }
-   </script>
-  <script>
-    if (screen.width <= 600) {
-    document.location = "https://pwa.sandrolinux.com/";
-    }
-  </script>
-<script>
-  function madjavascript() {
-    var x = navigator.userAgent;
-    console.log("Truth active!");
-    window.alert ("This javascript may change your life forever or at least change the way you perceive the web");
-    window.alert ("Mark Zuckerburg is tracking you across the web");
-    window.alert ("Google do not care about your privacy");
-    window.alert ("Your user agent is " + x + " and that gives websites a unique characteristic about you that can be used to track you across the web.")
-    window.alert ("It is alarming how much data companies collect on you");
-    window.alert ("The US goverment tracks you. This is not conspiracy but fact. Look at the Snowden leaks");
-    window.alert ("You clicking on this shows that you are susceptible and are probably being tracked across the internet");
-    window.alert ("That is the reason why you need to join the fight for the open web");
-    window.alert ("You can start today by using Firefox, Tor or Brave as your web browser and setting your search engine to DuckDuckGo");
-    window.alert ("To learn more about how to mitigate spying I suggest The Hated One's videos");
-    console.log("User informed!");
-    window.alert ("Also, as always have a nice day!");
-    window.open("https://www.eff.org/issues/privacy")
-    window.open("https://www.torproject.org")
-    window.open("https://www.gnu.org/")
-    console.log("New browser tabs opened!");
-    console.log("Script finished!");
-  }
-  function whyuclickdis(){
-    document.getElementById("sandrosite").innerHTML = "Easter egg"; 
-  }
-</script>
-  <div class="cookie-container">
-      <p>
-        I use cookies on this website to give you the best experience. To find out more, read my <a href="privacypolicy.html">privacy policy/cookie policy</a>.
-      </p>
+  <body>
+    <style>
+      body {
+        text-align: center;
+      }
+      #bullet-point ul{
+       list-style: none;
+      }
+    </style>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
-      <button class="cookie-btn">
-        Okay
-      </button>
-      <a href="private/index.html">
-      <button class="cookie-btn">
-      Reject
-      </button>
-      </a>
-    </div>
-  <header class="TopBar">
-<div class="container">
-<div class="start_fonts">
-<H1 onclick="whyuclickdis()" id="sandrosite">Sandro Linux's Site</H1>
-</div>
-<p type="text" id="UserAgent"></p>
- <nav id="navbar">
-  <div class="container">
-    <ul>
-      <LI><a href="index.html">Home</a></LI>
-      <LI onclick="darkmodeswitch()"><a>Turn on dark mode</a></LI>
-      <LI><a href="search.htm">Search</a></LI>
-      <LI><a href="myplaylist.htm">My playlists</a></LI>
-      <LI><a href="aboutthiswebsite.htm">About this website</a></LI>
-      </UL>
-      </div>
-    </nav>
-  <script src="cookiebanner.js"></script>
-  <script src="newfunction.js"></script>
-  <script src="pwa.js"></script>
-  <script src="pwabanner.js"></script>
-  <div class="box-1">
-    <div class="no-more-whatsapp">
-      <p>The US Gov is trying to stop crypto <a href="https://helplbrysavecrypto.com/">sign the petition to stop them</a></p>
-    </div>
-  <p id="extension"></p>
-  <h2><u>Thank you for 90 subscribers!</u></h2>
-  <p>Thank you for 90 subscribers on YouTube!</p>
-  <H2><u>My latest video</u></H2>
-  <div class="iframe-container">
-  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/hgijvF6m540?autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <h2 class="container-fluid">Sandro Linux</h2>
+    <div id="bullet-point">
+    <ul class="container-fluid">
+      <li><a href="mainpage.html">General</a></li>
+      <li><a href="newsaboutme.html">Tech News and News About Me</a> (legacy)</li>
+      <li><a href="aboutthiswebsite.html">About this website</a> (legacy)</li>
+      <li><a href="myplaylist.html">My playlists</a> (legacy)</li>
+      <li><a href="https://www.sandrolinux.com/mainpage#theaviuse">The Anti-Virus and VPN I Use</a></li>
+      <li><a href="https://www.sandrolinux.com/news/allstories.html">All Stories</a></li>
+    </ul>
   </div>
-  <H2><U>My extension</U></H2>
-  <p>I have released an extension for firefox which lets you access my content quickly and you can download it by <a download="sle" href="https://addons.mozilla.org/firefox/downloads/file/3664616/sle_extension-1.3-fx.xpi">clicking here</a> or clicking the button below</p>
-  <H2><U>Which part of my website do you want to navigate to?</U></H2>
-  <ul>
-    <LI><a href="mainpage.html">About me</a></LI>
-    <LI><a href="newsaboutme.html">Tech News and News About Me</a></LI>
-    <LI><a href="aboutthiswebsite.html">About this website</a></LI>
-    <LI><a href="myplaylist.html">My playlists</a></LI>
-    <LI><a href="https://www.sandrolinux.com/mainpage#theaviuse">The Anti-Virus and VPN I Use</a></LI>
-    <LI><a href="https://www.sandrolinux.com/news/allstories.html">All Stories</a></LI>
-  </ul>
-  </div>
-  </header>
-</div>
-  <div class="Endpoint">
-<P><a href="privacypolicy.html">Privacy Policy</a> &emsp; <a href="index.html">Homepage</a> &emsp; <a href="contactme.html">Contact Me</a> &emsp; <button class="privacy_button" onclick="madjavascript()">My thoughts of privacy</button></P>
-<footer id="main-footer">
-  <p>Copyright &copy; 2021 Oscar Sanderson</p>
-  </footer>
-  </div>
-</body>
-</HTML>
+  <footer id="main-footer">
+    <p>Copyright &copy; 2021 Oscar Sanderson</p>
+    </footer>
+  </body>

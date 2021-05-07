@@ -6,6 +6,37 @@
       document.location = "https://pwa.sandrolinux.com/";
       }
     </script>
+    <style>
+        body {
+          text-align: center;
+        }
+        #bullet-point ul{
+         list-style: none;
+        }
+        .iframe-container {
+         position: relative;
+         overflow: hidden;
+        width: 98%;
+        padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+        .responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+      </style>
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  
+      <!-- jQuery library -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+      <!-- Latest compiled JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="sandrolinux.css">
   <meta name="description" content="A page about me and my youtube channel Sandro Linux">
   <meta name="keywords" content="Sandro Linux, Sandro's quick news, Oscar Sanderson, Tech">
@@ -13,38 +44,9 @@
   <link rel="amphtml" href="https://m.sandrolinux.com/mainpage.html">
   <title>Sandro Linux's Official Website</title>
   </head>
-<body>
-  <div class="cookie-container">
-    <p>
-     I use cookies on this website to give you the best experience. To find out more, read my <a href="privacypolicy.html">privacy policy/cookie policy</a>.
-    </p>
-  <button class="cookie-btn">
-    Okay
-  </button>
-  <a href="private/index.html">
-  <button class="cookie-btn">
-  Reject
-  </button>
-  </a>
-</div>
-<meta name="author" content="Oscar Sanderson">
-<header class="TopBar">
-<div class="container">
-<H1>Sandro Linux</H1>
-</div>
-</header>
-<nav id="navbar">
-  <div class="container">
-    <ul>
-      <LI><a href="index.html">Home</a></LI>
-      <LI><a href="search.html">Search</a></LI>
-      <LI><a href="myplaylist.html">My playlists</a></LI>
-      <LI><a href="aboutthiswebsite.html">About this website</a></LI>
-    </ul>
-    </div>
-</nav>
-<div class="box-1">
-  <H2><U>List of contents</U></H2>
+<div class="container-fluid">
+<h2>Sandro Linux</h2>
+<H2><U>List of contents</U></H2>
   <ul>
   <LI><a href="#sandro's_quick_news">Sandro's Quick News</a></LI>
   <LI><a href="#oscar_sanderson">Oscar Sanderson</a></LI>
@@ -337,22 +339,16 @@ href="https://commons.wikimedia.org/wiki/File:Manjaro_Kyria_KDE_19.0.2.png">
 <LI><a href="https://www.itv.com/youvebeenframed" target="_blank">You've Been Framed</a> because it is very funny</LI>
 </UL>
 <H2><U><a name="my_interests"></a>My Interests</U></H2>
-<UL>
-<LI>Tech (obviously)</LI>
-<LI><a href="https://www.eff.org" target="_blank">Privacy and security</a></LI>
-<LI>Coding</LI>
-<LI><a href="https://www.xbox.com/" target="_blank">Gaming</a></LI>
-<LI><a href="https://www.wickes.co.uk" target="_blank">Home Inprovements</a></LI>
+<ul>
+<li>Tech (obviously)</LI>
+<li><a href="https://www.eff.org" target="_blank">Privacy and security</a></li>
+<li>Coding</LI>
+<li><a href="https://www.xbox.com/" target="_blank">Gaming</a></li>
+<li><a href="https://www.wickes.co.uk" target="_blank">Home Inprovements</a></li>
 </UL>
+</div>
 <H2><U><a name="my_favourite_font"></a>My Favourite Font</U></H2>
-<P>My favourite font is Verdana</P>
-</div>
-<div class="Endpoint">
-<P><a href="privacypolicy.html">Privacy Policy</a> &emsp; <a href="index.html">Homepage</a> &emsp; <a href="contactme.html">Contact Me</a></P>
+<p>My favourite font is Verdana</p>
 <footer id="main-footer">
-  <P>Copyright &copy; 2021 Oscar Sanderson</P>
-</footer>
-<script src="cookiebanner.js"></script>
-</div>
-</body>
-</HTML>
+    <p>Copyright &copy; 2021 Oscar Sanderson</p>
+    </footer>
