@@ -18,12 +18,36 @@
   <body>
     <style>
       body {
-        text-align: center;
-      }
+  text-align: center;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+.linux-title {
+  padding-bottom: 2%;
+}
+.footer-padding {
+  padding-top: 2%;
+}
+.li-padding {
+  padding-top: 1%;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
       #bullet-point ul{
        list-style: none;
       }
     </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
@@ -32,18 +56,18 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <h2 class="container-fluid">Sandro Linux</h2>
+    <h2 class="container-fluid linux-title">Sandro Linux</h2>
     <div id="bullet-point">
     <ul class="container-fluid">
-      <li><a href="mainpage.html">General</a></li>
-      <li><a href="newsaboutme.html">Tech News and News About Me</a> (legacy)</li>
-      <li><a href="aboutthiswebsite.html">About this website</a> (legacy)</li>
-      <li><a href="myplaylist.html">My playlists</a> (legacy)</li>
-      <li><a href="https://www.sandrolinux.com/mainpage#theaviuse">The Anti-Virus and VPN I Use</a></li>
-      <li><a href="https://www.sandrolinux.com/news/allstories.html">All Stories</a></li>
+      <li class="li-padding"><a href="mainpage.html">General</a></li>
+      <li class="li-padding"><a href="newsaboutme.html">Tech News and News About Me</a> (legacy)</li>
+      <li class="li-padding"><a href="aboutthiswebsite.html">About this website</a> (legacy)</li>
+      <li class="li-padding"><a href="myplaylist.html">My playlists</a> (legacy)</li>
+      <li class="li-padding"><a href="https://www.sandrolinux.com/mainpage#theaviuse">The Anti-Virus and VPN I Use</a></li>
+      <li class="li-padding"><a href="https://www.sandrolinux.com/news/allstories.html">All Stories</a></li>
     </ul>
   </div>
-  <footer id="main-footer">
+  <footer id="main-footer" class="footer-padding">
     <p>Copyright &copy; 2021 Oscar Sanderson</p>
     </footer>
   </body>
