@@ -1,0 +1,22 @@
+{
+  "name": "the-sandro-linux-website-new-dawn",
+  "version": "1.0.0",
+  "description": "My redesigned website ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SandroLinux/My-Website.git"
+  },
+  "keywords": [
+    "website"
+  ],
+  "author": "Oscar Sanderson",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/SandroLinux/My-Website/issues"
+  },
+  "homepage": "https://github.com/SandroLinux/My-Website#readme"
+}
