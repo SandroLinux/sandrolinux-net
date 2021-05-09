@@ -1,4 +1,6 @@
-#News Crawlers
+# robots.txt file for sandrolinux.com
+# Made before the takeover of great bingus
+# News Crawlers
 
 User-agent: Baiduspider-news
 Allow: /news/
