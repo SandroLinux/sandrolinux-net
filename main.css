@@ -1,6 +1,12 @@
   body {
     text-align: center;
   }
+  body ul{
+    list-style: none;
+  }
+  body li{
+    list-style: none;
+  }
   #bullet-point ul{
    list-style: none;
   }
