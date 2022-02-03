@@ -1,2 +1,2 @@
 # My-Website
-This is the source code for my website sandrolinux.com and it is licensed under the GPL
+This is the old code of my website now archived. Go to https://github.com/SandroLinux/sandrolinux.com for my redesigned website. 
