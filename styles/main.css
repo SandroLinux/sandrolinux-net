@@ -27,6 +27,10 @@
   }
   .linux-title {
     padding-bottom: 2%;
+    text-decoration: none;
+  }
+  .linux-title a { 
+    color: black; 
   }
   .footer-padding {
     padding-top: 2%;
